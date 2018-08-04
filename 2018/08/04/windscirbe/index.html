@@ -87,18 +87,18 @@
 
 
 
-<meta name="description" content="windscribe系统：Ubuntu18.04  Get a Windscribe Account Create a free account if you don’t have one already.  Add the Windscribe signing key to apt 1sudo apt-key adv --keyserver keyserver.ubuntu.com --recv">
+<meta name="description" content="windscribe">
 <meta name="keywords" content="翻墙">
 <meta property="og:type" content="article">
 <meta property="og:title" content="windscribe翻墙">
 <meta property="og:url" content="http://yoursite.com/2018/08/04/windscirbe/index.html">
 <meta property="og:site_name" content="ESTEBAN">
-<meta property="og:description" content="windscribe系统：Ubuntu18.04  Get a Windscribe Account Create a free account if you don’t have one already.  Add the Windscribe signing key to apt 1sudo apt-key adv --keyserver keyserver.ubuntu.com --recv">
+<meta property="og:description" content="windscribe">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-08-04T20:57:56.629Z">
+<meta property="og:updated_time" content="2018-08-04T21:13:39.659Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="windscribe翻墙">
-<meta name="twitter:description" content="windscribe系统：Ubuntu18.04  Get a Windscribe Account Create a free account if you don’t have one already.  Add the Windscribe signing key to apt 1sudo apt-key adv --keyserver keyserver.ubuntu.com --recv">
+<meta name="twitter:description" content="windscribe">
 
 
 
@@ -108,7 +108,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -147,7 +147,10 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
-
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/dist/music.js"></script>
   
   
     
@@ -195,26 +198,6 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            Categories
           </a>
         </li>
       
@@ -404,7 +387,10 @@
       
 
       
-        <p><a href="https://windscribe.com/" target="_blank" rel="noopener">windscribe</a><br>系统：Ubuntu18.04</p>
+        <blockquote class="blockquote-center"><p>windscribe</p>
+</blockquote>
+<a id="more"></a>
+<p><a href="https://windscribe.com/" target="_blank" rel="noopener">windscribe</a><br>系统：Ubuntu18.04</p>
 <ol>
 <li><p>Get a Windscribe Account</p>
 <p><a href="https://windscribe.com/myaccount" target="_blank" rel="noopener">Create a free account</a> if you don’t have one already.</p>
@@ -437,6 +423,14 @@
     
 
     
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="" alt="Esteban Lam wechat" style="width: 200px; max-width: 100%;"/>
+    <div></div>
+</div>
+
+      </div>
+    
 
     
 
@@ -468,10 +462,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/04/话语1/" rel="prev" title="话语">
-                话语 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -615,6 +605,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -663,11 +660,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     

@@ -87,13 +87,14 @@
 
 
 
+<meta name="description" content="Hey, big guy. Sun’ getting real low.             ———Bruce&amp;amp;Natasha">
 <meta name="keywords" content="PIC.Sun">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Sun">
 <meta property="og:url" content="http://yoursite.com/2018/07/01/Sun/index.html">
 <meta property="og:site_name" content="ESTEBAN">
+<meta property="og:description" content="Hey, big guy. Sun’ getting real low.             ———Bruce&amp;amp;Natasha">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="http://yoursite.com/imp/sun/1.JPG">
 <meta property="og:image" content="http://yoursite.com/imp/sun/1.JPG">
 <meta property="og:image" content="http://yoursite.com/imp/sun/2.JPG">
 <meta property="og:image" content="http://yoursite.com/imp/sun/3.JPG">
@@ -107,9 +108,10 @@
 <meta property="og:image" content="http://yoursite.com/imp/sun/11.JPG">
 <meta property="og:image" content="http://yoursite.com/imp/sun/12.JPG">
 <meta property="og:image" content="http://yoursite.com/imp/sun/13.JPG">
-<meta property="og:updated_time" content="2018-08-01T04:12:27.513Z">
+<meta property="og:updated_time" content="2018-08-04T21:28:14.053Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Sun">
+<meta name="twitter:description" content="Hey, big guy. Sun’ getting real low.             ———Bruce&amp;amp;Natasha">
 <meta name="twitter:image" content="http://yoursite.com/imp/sun/1.JPG">
 
 
@@ -120,7 +122,7 @@
     root: '/',
     scheme: 'Gemini',
     version: '5.1.4',
-    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":true,"scrollpercent":true,"onmobile":false},
     fancybox: true,
     tabs: true,
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
@@ -159,7 +161,10 @@
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
-
+  <link rel="stylesheet" href="/dist/APlayer.min.css">
+  <div id="aplayer"></div>
+  <script type="text/javascript" src="/dist/APlayer.min.js"></script>
+  <script type="text/javascript" src="/dist/music.js"></script>
   
   
     
@@ -207,26 +212,6 @@
               <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
             
             Home
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-tags">
-          <a href="/tags/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
-            
-            Tags
-          </a>
-        </li>
-      
-        
-        <li class="menu-item menu-item-categories">
-          <a href="/categories/" rel="section">
-            
-              <i class="menu-item-icon fa fa-fw fa-th"></i> <br />
-            
-            Categories
           </a>
         </li>
       
@@ -416,7 +401,10 @@
       
 
       
-        <figure><br>    <img src="/imp/sun/1.JPG" width="500" height="200" alt="git" align="center"><br>    <a id="more"></a><br>    <img src="/imp/sun/1.JPG"><br>    <img src="/imp/sun/2.JPG"><br>    <img src="/imp/sun/3.JPG"><br>    <img src="/imp/sun/4.JPG"><br>    <img src="/imp/sun/5.JPG"><br>    <img src="/imp/sun/6.JPG"><br>    <img src="/imp/sun/7.JPG"><br>    <img src="/imp/sun/8.JPG"><br>    <img src="/imp/sun/9.JPG"><br>    <img src="/imp/sun/10.JPG"><br>    <img src="/imp/sun/11.JPG"><br>    <img src="/imp/sun/12.JPG"><br>    <img src="/imp/sun/13.JPG"><br></figure> 
+        <blockquote class="blockquote-center"><p>Hey, big guy. Sun’ getting real low.<br>             ———Bruce&amp;Natasha</p>
+</blockquote>
+<a id="more"></a>
+<figure><br>    <img src="/imp/sun/1.JPG"><br>    <img src="/imp/sun/2.JPG"><br>    <img src="/imp/sun/3.JPG"><br>    <img src="/imp/sun/4.JPG"><br>      <img src="/imp/sun/5.JPG"><br>    <img src="/imp/sun/6.JPG"><br>    <img src="/imp/sun/7.JPG"><br>    <img src="/imp/sun/8.JPG"><br>    <img src="/imp/sun/9.JPG"><br>    <img src="/imp/sun/10.JPG"><br>     <img src="/imp/sun/11.JPG"><br>     <img src="/imp/sun/12.JPG"><br>     <img src="/imp/sun/13.JPG"><br></figure> 
 
       
     </div>
@@ -424,6 +412,14 @@
     
     
 
+    
+      <div>
+        <div id="wechat_subscriber" style="display: block; padding: 10px 0; margin: 20px auto; width: 100%; text-align: center">
+    <img id="wechat_subscriber_qcode" src="" alt="Esteban Lam wechat" style="width: 200px; max-width: 100%;"/>
+    <div></div>
+</div>
+
+      </div>
     
 
     
@@ -457,8 +453,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2018/08/01/ubuntu主题/" rel="prev" title="Ubuntu18.04 主题美化">
-                Ubuntu18.04 主题美化 <i class="fa fa-chevron-right"></i>
+              <a href="/2018/08/01/话语1/" rel="prev" title="话语">
+                话语 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -603,6 +599,13 @@
       
 
       
+        <div class="back-to-top">
+          <i class="fa fa-arrow-up"></i>
+          
+            <span id="scrollpercent"><span>0</span>%</span>
+          
+        </div>
+      
 
     </div>
   </aside>
@@ -651,11 +654,6 @@
       </div>
     </footer>
 
-    
-      <div class="back-to-top">
-        <i class="fa fa-arrow-up"></i>
-        
-      </div>
     
 
     

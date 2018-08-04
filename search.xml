@@ -3,31 +3,10 @@
   
     
     <entry>
-      <title>话语</title>
-      <link href="/2018/08/04/%E8%AF%9D%E8%AF%AD1/"/>
-      <url>/2018/08/04/%E8%AF%9D%E8%AF%AD1/</url>
-      <content type="html"><![CDATA[<p>群体盲从意识会淹没个体的理性，个体一旦将自己归入该群体，其原本独立的理性就会被群体的无知疯狂所淹没。                                                              ——古斯塔夫·勒庞 《乌合之众》</p>]]></content>
-      
-      <categories>
-          
-          <category> Sentence </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> daily </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
       <title>windscribe翻墙</title>
       <link href="/2018/08/04/windscirbe/"/>
       <url>/2018/08/04/windscirbe/</url>
-      <content type="html"><![CDATA[<p><a href="https://windscribe.com/" target="_blank" rel="noopener">windscribe</a><br>系统：Ubuntu18.04</p><ol><li><p>Get a Windscribe Account</p><p><a href="https://windscribe.com/myaccount" target="_blank" rel="noopener">Create a free account</a> if you don’t have one already.</p></li><li><p>Add the Windscribe signing key to apt</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7</span><br></pre></td></tr></table></figure></li><li><p>Add the repository to your sources.list</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &apos;deb https://repo.windscribe.com/ubuntu zesty main&apos; | sudo tee /etc/apt/sources.list.d/windscribe-repo.list</span><br></pre></td></tr></table></figure></li><li><p>Run apt-get update</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure></li><li><p>Install windscribe-cli</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install windscribe-cli</span><br></pre></td></tr></table></figure></li><li><p>Login to Windscribe</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe login</span><br></pre></td></tr></table></figure></li><li><p>Connect to Windscribe</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe connect</span><br></pre></td></tr></table></figure></li></ol><p>Need help?<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe --help</span><br></pre></td></tr></table></figure></p>]]></content>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>windscribe</p></blockquote><a id="more"></a><p><a href="https://windscribe.com/" target="_blank" rel="noopener">windscribe</a><br>系统：Ubuntu18.04</p><ol><li><p>Get a Windscribe Account</p><p><a href="https://windscribe.com/myaccount" target="_blank" rel="noopener">Create a free account</a> if you don’t have one already.</p></li><li><p>Add the Windscribe signing key to apt</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-key FDC247B7</span><br></pre></td></tr></table></figure></li><li><p>Add the repository to your sources.list</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">echo &apos;deb https://repo.windscribe.com/ubuntu zesty main&apos; | sudo tee /etc/apt/sources.list.d/windscribe-repo.list</span><br></pre></td></tr></table></figure></li><li><p>Run apt-get update</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure></li><li><p>Install windscribe-cli</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install windscribe-cli</span><br></pre></td></tr></table></figure></li><li><p>Login to Windscribe</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe login</span><br></pre></td></tr></table></figure></li><li><p>Connect to Windscribe</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe connect</span><br></pre></td></tr></table></figure></li></ol><p>Need help?<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">windscribe --help</span><br></pre></td></tr></table></figure></p>]]></content>
       
       <categories>
           
@@ -66,10 +45,31 @@
     </entry>
     
     <entry>
+      <title>话语</title>
+      <link href="/2018/08/01/%E8%AF%9D%E8%AF%AD1/"/>
+      <url>/2018/08/01/%E8%AF%9D%E8%AF%AD1/</url>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>群体盲从意识会淹没个体的理性，个体一旦将自己归入该群体，其原本独立的理性就会被群体的无知疯狂所淹没。<br>                                ——古斯塔夫·勒庞 《乌合之众》 </p></blockquote><a id="more"></a>]]></content>
+      
+      <categories>
+          
+          <category> Sentence </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> daily </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>Sun</title>
       <link href="/2018/07/01/Sun/"/>
       <url>/2018/07/01/Sun/</url>
-      <content type="html"><![CDATA[<figure><br>    <img src="/imp/sun/1.JPG" width="500" height="200" alt="git" align="center"><br>    <a id="more"></a><br>    <img src="/imp/sun/1.JPG"><br>    <img src="/imp/sun/2.JPG"><br>    <img src="/imp/sun/3.JPG"><br>    <img src="/imp/sun/4.JPG"><br>    <img src="/imp/sun/5.JPG"><br>    <img src="/imp/sun/6.JPG"><br>    <img src="/imp/sun/7.JPG"><br>    <img src="/imp/sun/8.JPG"><br>    <img src="/imp/sun/9.JPG"><br>    <img src="/imp/sun/10.JPG"><br>    <img src="/imp/sun/11.JPG"><br>    <img src="/imp/sun/12.JPG"><br>    <img src="/imp/sun/13.JPG"><br></figure> ]]></content>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>Hey, big guy. Sun’ getting real low.<br>             ———Bruce&amp;Natasha</p></blockquote><a id="more"></a><figure><br>    <img src="/imp/sun/1.JPG"><br>    <img src="/imp/sun/2.JPG"><br>    <img src="/imp/sun/3.JPG"><br>    <img src="/imp/sun/4.JPG"><br>      <img src="/imp/sun/5.JPG"><br>    <img src="/imp/sun/6.JPG"><br>    <img src="/imp/sun/7.JPG"><br>    <img src="/imp/sun/8.JPG"><br>    <img src="/imp/sun/9.JPG"><br>    <img src="/imp/sun/10.JPG"><br>     <img src="/imp/sun/11.JPG"><br>     <img src="/imp/sun/12.JPG"><br>     <img src="/imp/sun/13.JPG"><br></figure> ]]></content>
       
       <categories>
           
@@ -90,7 +90,7 @@
       <title>Amsterdam</title>
       <link href="/2018/06/29/Amsterdam/"/>
       <url>/2018/06/29/Amsterdam/</url>
-      <content type="html"><![CDATA[<figure><br>    <img src="/imp/Amsterdam/1.jpg" width="500" height="200" alt="git" align="center"><br>    <a id="more"></a><br>    <img src="/imp/Amsterdam/2.jpg"><br>    <img src="/imp/Amsterdam/3.jpg"><br>    <img src="/imp/Amsterdam/4.jpg"><br>    <img src="/imp/Amsterdam/5.jpg"><br>    <img src="/imp/Amsterdam/6.jpg"><br>    <img src="/imp/Amsterdam/7.jpg"><br>    <img src="/imp/Amsterdam/8.jpg"><br>    <img src="/imp/Amsterdam/9.jpg"><br>    <img src="/imp/Amsterdam/10.jpg"><br>    <img src="/imp/Amsterdam/11.jpg"><br>    <img src="/imp/Amsterdam/12.jpg"><br>    <img src="/imp/Amsterdam/13.jpg"><br>    <img src="/imp/Amsterdam/14.jpg"><br>    <img src="/imp/Amsterdam/15.jpg"><br>    <img src="/imp/Amsterdam/16.jpg"><br>    <img src="/imp/Amsterdam/17.jpg"><br>    <img src="/imp/Amsterdam/18.jpg"><br>    <img src="/imp/Amsterdam/19.jpg"><br>    <img src="/imp/Amsterdam/20.jpg"><br>    <img src="/imp/Amsterdam/21.jpg"><br>    <img src="/imp/Amsterdam/22.jpg"><br>    <img src="/imp/Amsterdam/23.jpg"><br>    <img src="/imp/Amsterdam/24.jpg"><br>    <img src="/imp/Amsterdam/25.jpg"><br>    <img src="/imp/Amsterdam/26.jpg"><br>    <img src="/imp/Amsterdam/27.jpg"><br>    <img src="/imp/Amsterdam/28.jpg"><br></figure> ]]></content>
+      <content type="html"><![CDATA[<blockquote class="blockquote-center"><p>风车里面是有住家的,木鞋真的是荷兰人天天穿的！<br>           ——丘彦明 《在荷兰过日子》</p></blockquote> <a id="more"></a><figure><br><br>   <img src="/imp/Amsterdam/2.jpg"><br>    <img src="/imp/Amsterdam/3.jpg"><br>    <img src="/imp/Amsterdam/4.jpg"><br>    <img src="/imp/Amsterdam/5.jpg"><br>    <img src="/imp/Amsterdam/6.jpg"><br>    <img src="/imp/Amsterdam/7.jpg"><br>    <img src="/imp/Amsterdam/8.jpg"><br>    <img src="/imp/Amsterdam/9.jpg"><br>    <img src="/imp/Amsterdam/10.jpg"><br>    <img src="/imp/Amsterdam/11.jpg"><br>    <img src="/imp/Amsterdam/12.jpg"><br>    <img src="/imp/Amsterdam/13.jpg"><br>    <img src="/imp/Amsterdam/14.jpg"><br>    <img src="/imp/Amsterdam/15.jpg"><br>    <img src="/imp/Amsterdam/16.jpg"><br>    <img src="/imp/Amsterdam/17.jpg"><br>    <img src="/imp/Amsterdam/18.jpg"><br>    <img src="/imp/Amsterdam/19.jpg"><br>    <img src="/imp/Amsterdam/20.jpg"><br>    <img src="/imp/Amsterdam/21.jpg"><br>    <img src="/imp/Amsterdam/22.jpg"><br>    <img src="/imp/Amsterdam/23.jpg"><br>    <img src="/imp/Amsterdam/24.jpg"><br>    <img src="/imp/Amsterdam/25.jpg"><br>    <img src="/imp/Amsterdam/26.jpg"><br>    <img src="/imp/Amsterdam/27.jpg"><br>    <img src="/imp/Amsterdam/28.jpg"><br></figure> ]]></content>
       
       <categories>
           
